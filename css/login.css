@@ -1,0 +1,60 @@
+.main,#login,#register,#forget{
+    width:100%;
+    height: 6rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+#login,#register,#forget{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.foot{
+    width: 100%;
+    height: 0.8rem;
+    color: #fff;
+    background-color: rgb(220, 30, 50);
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#log,#reg,#for{
+    font-size: 0.16rem;
+    width: 2.3rem;
+    height: 0.4rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(220, 30, 50);
+    border-radius: 0.2rem;
+}
+.top input{
+    outline: none;
+    border: none;
+    width:2.5rem;
+    height: 0.25rem;
+}
+.top div{
+    padding: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+}
+.top .por .poa{
+    width: 1rem;
+    border-radius: 0.1rem;
+}
+.top{
+    font-size: 0.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    
+}
+.cen{
+    font-size: 0.16rem;
+    width: 20%;
+    padding: 0.3rem 0;
+}
